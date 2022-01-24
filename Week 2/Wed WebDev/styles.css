@@ -1,0 +1,29 @@
+.tropical {
+    stroke: black;
+    fill:  #081d58;
+    opacity: 75%;
+}
+
+.drought {
+    stroke: black;
+    fill:  	#ffffd9;
+    opacity: 75%;
+}
+
+.flooding {
+    stroke: black;
+    fill:  	#41b6c4;
+    opacity: 75%;
+}
+
+.severe {
+    stroke: black;
+    fill:  	#c7e9b4;
+    opacity: 75%;
+}
+
+.winter {
+    stroke: black;
+    fill:  	 	#ccc;
+    opacity: 75%;
+}

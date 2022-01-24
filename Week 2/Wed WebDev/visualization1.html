@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Visualization 1</title>
+    
+    <!-- The following line references an external css file -->
+    <!-- It defines style rules for your page, and elements in your page -->
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <h1 style="text-align: center;">Visualization 1</h1>
+    <p style="text-align: center;">Kevin Eaton</p>
+
+    <svg id="svg" height="600" width="1000" >
+        <line x1=50 y1=200 x2=950 y2=200 style="stroke:rgb(0, 0, 0);stroke-width:2"/>
+        <line x1=50 y1=400 x2=950 y2=400 style="stroke:rgb(0, 0, 0);stroke-width:2"/>
+
+        <!-- Adding circles in statically starting with 2017-->
+        <circle class="tropical" cx="636.85" cy="200" r="125"/>
+        <circle class="severe" cx="442.05" cy="200" r="5"/>
+        <circle class="severe" cx="363.15" cy="200" r="4.4"/>
+        <circle class="severe" cx="257.12" cy="200" r="4.2"/>
+        <circle class="severe" cx="207.81" cy="200" r="4.2"/>
+        <circle class="severe" cx="193.01" cy="200" r="3.6"/>
+        <circle class="flooding" cx="331.10" cy="200" r="3.4"/>
+        <circle class="flooding" cx="143.70" cy="200" r="3"/>
+        <circle class="severe" cx="96.85" cy="200" r="2.2"/>
+        
+        <!-- Adding circles in statically starting with 2016-->
+        <circle class="flooding" cx="602.33" cy="400" r="20.6"/>
+        <circle class="tropical" cx="742.88" cy="400" r="20.6"/>
+        <circle class="drought" cx="50" cy="400" r="7.2"/>
+        <circle class="severe" cx="296.58" cy="400" r="7.2"/>
+        <circle class="flooding" cx="313.84" cy="400" r="5.6"/>
+        <circle class="drought" cx="424.79" cy="400" r="5"/>
+        <circle class="severe" cx="336.03" cy="400" r="5"/>
+        <circle class="flooding" cx="215.21" cy="400" r="4.8"/>
+        <circle class="severe" cx="252.19" cy="400" r="4.2"/>
+        <circle class="severe" cx="365.62" cy="400" r="3.6"/>
+        <circle class="severe" cx="565.34" cy="400" r="3"/>
+        <circle class="severe" cx="237.40" cy="400" r="2.4"/>
+        <circle class="severe" cx="397.67" cy="400" r="2.4"/>
+        <circle class="severe" cx="178.22" cy="400" r="2.2"/>
+    </svg>
+
+    <!-- Load external JS files -->
+    <!-- This is where you will do most of the 'work' for your applications -->
+    <script src="main.js"></script>
+</body>
+</html>
